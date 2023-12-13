@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+
+  font-size: 18px;
+  /* color: white; */
+  /* width: 800px; */
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  /* width: 800px; */
+  /* height: 600px; */
+  /* margin: 0 auto; */
+  /* flex-wrap: wrap; */
+  /* background-color: rgb(178, 67, 67); */
+  /* overflow-y: scroll; */
+}
+
+.container > div {
+  border-radius: 5px;
+}
+
+#inputHistoryText {
+  background-color: hsla(0, 0%, 53%, 0.32);
+
+  /* word-wrap: break-word; */
+  margin: 10px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+#currentText {
+  background-color: hsla(0, 0%, 53%, 0.32);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+#contentSpecific {
+  background-color: hsla(0, 0%, 53%, 0.32);
+
+  margin: 10px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+}
+
+.inputText,
+.localText {
+  background-color: rgb(157, 22, 202);
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.btn {
+  background-color: hsla(0, 100%, 50%, 0.716);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
